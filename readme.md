@@ -1,8 +1,11 @@
 JavaScript Development Homework Repository
 =============================
 
-> Office hours:<br>
-Mondays & Wednesdays from 5:30-6:30, located in classroom 4 or in the workspace (fire escape/lounge).
+Office hours:<br>
+Mondays & Wednesdays from 5:30-6:30, located in classroom 4 or in the Duncan workspace (fire escape/lounge).
+
+[Homework table](#weekly-homework) is updated weekly.
+
 
 How To Use This Repo
 -----------------------
