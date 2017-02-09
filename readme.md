@@ -34,20 +34,18 @@ Example of how your local homework directory should be structured:
 
 Instructions
 -------------
-
-Use this repository for your homework and any files you are contributing in class.
+**Submit homework by pushing to your jsd6-homework fork, then submit a pull request**
 
 If any files are in the pull request outside of your personal folder, we will send it back to you to fix it!
 
 Weekly Homework
 ----------------
 
-**Submit homework by pushing to your jsd6-homework repo, then submit a pull request**
 
  \#  | Assignment | Class Topic | Due Date
 :-: | :--------- | :---------- | :-------
 00  | -CodeAcademy's JavaScript Fundamentals <br>-Try Git exercise | [00-installfest](https://github.com/svodnik/sfjs6/tree/master/00-installfest) | Monday, February 6th
-01  |            | -           | -
+01  | -bottlesOfBeer.js (found in `starter-code/4-homework-99-bottles-of-beer` folder) | [02-data-types-loops](https://github.com/svodnik/sfjs6/tree/master/02-data-types-loops) | Monday, February 13th
 02  |            | -           | -
 03  |            | -           | -
 04  |            | -           | -
