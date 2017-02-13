@@ -86,7 +86,5 @@ var q6 = 0;
   for (var number = 0; number < q5.length; number++){
   q6 += q5[number];
  };
- 
  var q6 = q6/q5.length;
-
  console.log("Question 6" + " "+ q6);
