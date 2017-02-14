@@ -4,9 +4,11 @@ JavaScript Development Homework Repository
 > Office hours:<br>
 Mondays & Wednesdays from 5:30-6:30, located in classroom 4 or in the workspace (fire escape/lounge).
 
-How To Use This Repo
------------------------
+[Homework table](#weekly-homework) is updated weekly.
 
+
+
+#### How To Use This Repo
 This is the repository where you'll submit your homework.    
 Follow these directions closely to switch over to this repository.
 
@@ -46,7 +48,7 @@ Weekly Homework
 :-: | :--------- | :---------- | :-------
 00  | -CodeAcademy's JavaScript Fundamentals <br>-Try Git exercise | [00-installfest](https://github.com/svodnik/sfjs6/tree/master/00-installfest) | Monday, February 6th
 01  | -bottlesOfBeer.js (found in `starter-code/4-homework-99-bottles-of-beer` folder) | [02-data-types-loops](https://github.com/svodnik/sfjs6/tree/master/02-data-types-loops) | Monday, February 13th
-02  |            | -           | -
+02  | `fizzBuzz.js`<br>`ages.js`<br>`dice.js`<br>Bonus: `randomAddressGenerator.js` | [03-conditionals-functions](https://github.com/svodnik/sfjs6/tree/master/03-conditionals-functions) | Monday, February 20th
 03  |            | -           | -
 04  |            | -           | -
 05  |            | -           | -
