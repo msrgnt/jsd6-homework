@@ -7,10 +7,6 @@ Mondays & Wednesdays from 5:30-6:30, located in classroom 4 or in the Duncan wor
 [Homework table](#weekly-homework) is updated weekly.
 
 
-[Homework table](#weekly-homework) is updated weekly.
-
-
-
 #### How To Use This Repo
 This is the repository where you'll submit your homework.    
 Follow these directions closely to switch over to this repository.
