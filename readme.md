@@ -48,6 +48,6 @@ Weekly Homework
 00  | CodeAcademy's JavaScript Fundamentals, and <br>Try Git exercise | [00-installfest](https://github.com/svodnik/sfjs6/tree/master/00-installfest) | Monday, February 6th
 01  | bottlesOfBeer.js (found in `starter-code/4-homework-99-bottles-of-beer` folder) | [02-data-types-loops](https://github.com/svodnik/sfjs6/tree/master/02-data-types-loops) | Monday, February 13th
 02  | `fizzBuzz.js`<br>`ages.js`<br>`dice.js`<br>Bonus: `randomAddressGenerator.js` | [03-conditionals-functions](https://github.com/svodnik/sfjs6/tree/master/03-conditionals-functions) | Monday, February 20th
-03  |            | -           | -
+03  | Closures lab<br>Read Hubot documentation (links provided) | [04-scope-closures](https://github.com/svodnik/sfjs6/tree/master/04-scope-closures) | Monday, February 20th
 04  |            | -           | -
 05  |            | -           | -
