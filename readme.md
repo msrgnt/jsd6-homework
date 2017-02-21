@@ -49,5 +49,5 @@ Weekly Homework
 01  | bottlesOfBeer.js (found in `starter-code/4-homework-99-bottles-of-beer` folder) | [02-data-types-loops](https://github.com/svodnik/sfjs6/tree/master/02-data-types-loops) | Monday, February 13th
 02  | `fizzBuzz.js`<br>`ages.js`<br>`dice.js`<br>Bonus: `randomAddressGenerator.js` | [03-conditionals-functions](https://github.com/svodnik/sfjs6/tree/master/03-conditionals-functions) | Monday, February 20th
 03  | Closures lab<br>Read Hubot documentation (links provided) | [04-scope-closures](https://github.com/svodnik/sfjs6/tree/master/04-scope-closures) | Monday, February 20th
-04  | Slackbot - PM Nicole the repo link to your bot's code. | [05-slackbot-lab](https://github.com/svodnik/sfjs6/tree/master/05-slackbot-lab) | Monday, February 27th
+04  | Hubot Slackbot - PM Nicole the repo link to your bot's code. | [05-slackbot-lab](https://github.com/svodnik/sfjs6/tree/master/05-slackbot-lab) | Monday, February 27th
 05  |            | -           | -
