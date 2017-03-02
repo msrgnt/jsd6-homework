@@ -52,6 +52,6 @@ Weekly Homework
 04  | Hubot Slackbot - PM Nicole the repo link to your bot's code. | [05-slackbot-lab](https://github.com/svodnik/sfjs6/tree/master/05-slackbot-lab) | Monday, February 27th
 05  | Outline & create objects (`3-objects-homework` folder)<br>Convert between JavaScript and JSON (`4-json-homework` folder) | [06-objects-json](https://github.com/svodnik/sfjs6/tree/master/06-objects-json) | Monday, February 27th
 06  | Madlibs (`05-madlibs` folder)<br>`bottlesOfBeer.js` now in the browser window!<br>Bonus: Dice! (`6-dice` folder, instructions in `js/app.js`) | [07-dom-intro](https://github.com/svodnik/sfjs6/tree/master/07-dom-intro) | Monday, March 6th
-07  |            | -           | -
+07  | jQuery (`5-jquery-homework` folder) | [08-jquery](https://github.com/svodnik/sfjs6/tree/master/08-jquery-templating) | Monday, March 6th
 08  |            | -           | -
 09  |            | -           | -
