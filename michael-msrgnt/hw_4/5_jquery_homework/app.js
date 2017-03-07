@@ -46,7 +46,7 @@ button.on("click", function(event){
 
 $("#surveyList").on( "click", "button", function( event ) {
     event.preventDefault();
-    console.log( "crab poop" );
+    console.log( "crab poo" );
     $(this).closest("li").remove();
 });
 
