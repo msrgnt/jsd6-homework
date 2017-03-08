@@ -24,11 +24,20 @@ $("button").on("click", function(){
     var longDark = response.coord.lon;
     var tempC = Math.ceil((temp * 9/5) - 459.67);
     var darkUrl = "https://api.darksky.net/forecast/" + apiDark + "/" + latDark + "," + longDark;
-
-    console.log(darkUrl);
     var weatherS = JSON.stringify(weather);
-      $("div").text("Currently, it's nothin' but " + weather + " in " + JSON.parse(inny));
+      $("div").text("Currently, it's nothin' but " + " '" + weather + "' " + " in " + JSON.parse(inny));
       $(".divB").text(tempC + " degrees");
+
+      $.get(darkUrl, function(responseB){
+        var weatherDark = (responseB.currently.summary);
+        var tempDark = (responseB.currently.apparentTemperature);
+
+        console.log(responseB);
+        $(".divC").text("Oh, and if you're into cross-validation, DarkSky (spooky name, I know) says it's " + " '" + weatherDark + "' " + " in " + JSON.parse(inny) + ", and a balmy " + tempDark + " degrees out");
+
+      });
   });
+
+
   $("input").val("");
 });
