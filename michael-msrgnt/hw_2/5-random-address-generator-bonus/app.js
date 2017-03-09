@@ -1,5 +1,5 @@
 var numby = Math.ceil(Math.random() * 50000);
-var street = ["Poppy Street", "Elm Avenue", "dPoop View"];
+var street = ["Poppy Street", "Elm Avenue", "Poop View"];
 var city = ["Funk City", "Poop Town", "Los Angeles"];
 var state = ["CA", "NY", "MI", "XX"];
 var zippy = ["90210", "11111", "21242", "39402"];
