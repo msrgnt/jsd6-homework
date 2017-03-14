@@ -8,21 +8,20 @@ Fix queueCreator() so that each guest is given his/her correct position in the l
 HINT: Brush up on closures!
 */
 
+// for each element in an array, create a position property and give it the value of that element's position plus one
 function queueCreator(waitList){
-
   for (var i = 0; i < waitList.length; i++) {
-    let person = i;
-    waitList[i].id = function() {
-      return person + 1;
-    }
+    (function Incrementer(i) {
+      return waitList[i].id = i + 1;
+    })(i);
   }
-  return waitList
+  return waitList;
 }
 
 var people = [{name:'Octavia'}, {name:'Judy'}, {name: 'Gloria'}];
 
 var queueList = queueCreator(people);
 
-console.log(queueList[0].id());
-console.log(queueList[1].id());
-console.log(queueList[2].id());
+console.log(queueList[0].id);
+console.log(queueList[1].id);
+console.log(queueList[2].id);
