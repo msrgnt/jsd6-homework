@@ -15,6 +15,8 @@ for (var bottleNum = 99; bottleNum > 0; bottleNum--) {
 }
 */
 
+var bottleNum;
+
 for (bottleNum = 99; bottleNum > 0; bottleNum) {
   console.log(bottleNum + " bottles of beer on the wall, " + bottleNum + " bottles of beer. Take one down and pass it around, " + --bottleNum + " bottles of beer on the wall.");
 
