@@ -58,14 +58,10 @@ console.log("hello5");
               $("img").css("height", 150);
               $("img").css("width", 150);
             }
+            //test
             console.log(DOM_img);
 
-            //response.data.photos[i].image_url
-            //var DOM_img = document.createElement("img");
-            //DOM_img.src = response.data.photos[0].image_url;
-            //$('.images').append(DOM_img);
-            //$("img").css("height", 150);
-            //$("img").css("width", 150);
+
           }
         })
       });
