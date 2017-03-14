@@ -8,7 +8,7 @@ Fix queueCreator() so that each guest is given his/her correct position in the l
 HINT: Brush up on closures!
 */
 
-// copy of Jac's code: for each element in an array, create a position property and give it the value of that element's position plus one
+// ? copy of Jac's code: for each element in an array, create a position property and give it the value of that element's position plus one
 function queueCreator(waitList){
   for (var i = 0; i < waitList.length; i++) {
     (function Incrementer(i) {
