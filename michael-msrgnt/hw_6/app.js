@@ -1,8 +1,3 @@
-//v1/photos/search?term=latitude,longitude,radius<units>Acceptable units are km or mi
-//https://github.com/500px/api-documentation/blob/master/endpoints/photo/GET_photos_search.md
-//mlombardo-macbookair1:starter-code mlombardo$ http-server -p 8080
-
-
 $(document).ready(function () {
   console.log("hello1");
 
@@ -38,30 +33,27 @@ $(document).ready(function () {
 
         var searchOptions = {
           geo: lat + ',' + long + ',' + radius,
-          only: 'Landscapes'
+          only: 'Landscapes',
+          rpp: 28,
+          sort: "highest_rating"
         }
-console.log("hello5");
         _500px.api('/photos/search', searchOptions, function(response) {
           if (response.data.photos.length === 0) {
             console.log('No photos found');
           } else {
             console.log('Request succeeded!');
             console.log(response);
-            var arrayU = [];
+            var arrayA = [];
             for (var i = 0; i < response.data.photos.length; i++) {
-              arrayU.push(response.data.photos[i].image_url);
+              arrayA.push(response.data.photos[i].image_url);
             }
-            for (var i = 0; i < arrayU.length; i++) {
+            for (var i = 0; i < arrayA.length; i++) {
               var DOM_img = document.createElement("img");
-              DOM_img.src = arrayU[i];
+              DOM_img.src = arrayA[i];
               $('.images').append(DOM_img);
               $("img").css("height", 150);
               $("img").css("width", 150);
             }
-            //test
-            console.log(DOM_img);
-
-
           }
         })
       });
