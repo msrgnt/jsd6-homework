@@ -38,7 +38,9 @@ $(document).ready(function () {
 
         var searchOptions = {
           geo: lat + ',' + long + ',' + radius,
-          only: 'Landscapes'
+          only: 'Landscapes',
+          rpp: 28,
+          sort: "highest_rating"
         }
 console.log("hello5");
         _500px.api('/photos/search', searchOptions, function(response) {
@@ -47,13 +49,16 @@ console.log("hello5");
           } else {
             console.log('Request succeeded!');
             console.log(response);
-            var arrayU = [];
+            var arrayA = [];
+
             for (var i = 0; i < response.data.photos.length; i++) {
-              arrayU.push(response.data.photos[i].image_url);
+              arrayA.push(response.data.photos[i].image_url);
             }
-            for (var i = 0; i < arrayU.length; i++) {
+            console.log(arrayA);
+
+            for (var i = 0; i < arrayA.length; i++) {
               var DOM_img = document.createElement("img");
-              DOM_img.src = arrayU[i];
+              DOM_img.src = arrayA[i];
               $('.images').append(DOM_img);
               $("img").css("height", 150);
               $("img").css("width", 150);
