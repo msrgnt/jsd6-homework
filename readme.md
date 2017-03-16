@@ -56,6 +56,6 @@ Weekly Homework
 08  |  Open Weather Map (`3_jquery_ajax_exercise` folder)<br>Bonus: Kelvin -> Fahrenheit conversion | [09-ajax-apis](https://github.com/svodnik/sfjs6/tree/master/09-ajax-apis) | Monday, March 13th
 10  | Guest List (`4_homework` folder) | [10-async-callbacks](https://github.com/svodnik/sfjs6/tree/master/10-async-callbacks) | Monday, March 13th
 11  | 500px | [11-advanced-apis](https://github.com/svodnik/sfjs6/tree/master/11-advanced-apis)] | Monday, March 20th
-12  |  | [12-feedr-lab](https://github.com/svodnik/sfjs6/tree/master/12-feedr-lab) | Monday, March 20th
+12  | Feedr project - PM Nicole your repo link. | [12-feedr-lab](https://github.com/svodnik/sfjs6/tree/master/12-feedr-lab) | Monday, March 20th
 13  |            | -           | -
 14  |            | -           | -
