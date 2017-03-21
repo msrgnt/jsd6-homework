@@ -57,5 +57,8 @@ Weekly Homework
 10  | Guest List (`4_homework` folder) | [10-async-callbacks](https://github.com/svodnik/sfjs6/tree/master/10-async-callbacks) | Monday, March 13th
 11  | 500px | [11-advanced-apis](https://github.com/svodnik/sfjs6/tree/master/11-advanced-apis)] | Monday, March 20th
 12  | Feedr project - PM Nicole your repo link. | [12-feedr-lab](https://github.com/svodnik/sfjs6/tree/master/12-feedr-lab) | Monday, March 20th
-13  |            | -           | -
+13  | Stocks (`10-homework-stocks` folder)<br>Bonus:<br>1. Ensure that the total number of shares is never less than zero.<br>2. Ensure that calculated values are always rounded to the nearest cent. | [13-prototypal-inheritance](https://github.com/svodnik/sfjs6/tree/master/13-prototypal-inheritance) | Monday, March 27th
 14  |            | -           | -
+15  |            | -           | -
+16  |            | -           | -
+17  |            | -           | -
